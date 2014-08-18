@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0562624619A1554700627080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562624519A1554700627080 /* main.m */; };
+		0562624919A1554700627080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562624819A1554700627080 /* AppDelegate.m */; };
+		0562624B19A1554700627080 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0562624A19A1554700627080 /* Images.xcassets */; };
+		0562626119A155C600627080 /* MergeSortBenchmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562626019A155C600627080 /* MergeSortBenchmarkTests.m */; };
+		0562626319A1561D00627080 /* MergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562626219A1561D00627080 /* MergeSortTests.m */; };
+		0562626919A1569300627080 /* MergeSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562626819A1569300627080 /* MergeSortViewController.m */; };
+		0562626C19A156B000627080 /* MergeSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562626B19A156B000627080 /* MergeSorter.m */; };
+		0562626F19A15A8300627080 /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 0562626E19A15A8300627080 /* MergeSort.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0562625119A1554700627080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0562623819A1554700627080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0562623F19A1554700627080;
+			remoteInfo = MergeSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0562624019A1554700627080 /* MergeSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0562624419A1554700627080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0562624519A1554700627080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0562624719A1554700627080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0562624819A1554700627080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0562624A19A1554700627080 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0562625019A1554700627080 /* MergeSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0562625519A1554700627080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0562626019A155C600627080 /* MergeSortBenchmarkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortBenchmarkTests.m; sourceTree = "<group>"; };
+		0562626219A1561D00627080 /* MergeSortTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortTests.m; sourceTree = "<group>"; };
+		0562626719A1569300627080 /* MergeSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSortViewController.h; sourceTree = "<group>"; };
+		0562626819A1569300627080 /* MergeSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortViewController.m; sourceTree = "<group>"; };
+		0562626A19A156B000627080 /* MergeSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSorter.h; sourceTree = "<group>"; };
+		0562626B19A156B000627080 /* MergeSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSorter.m; sourceTree = "<group>"; };
+		0562626D19A15A2D00627080 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		0562626E19A15A8300627080 /* MergeSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0562623D19A1554700627080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0562624D19A1554700627080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0562623719A1554700627080 = {
+			isa = PBXGroup;
+			children = (
+				0562624219A1554700627080 /* MergeSort */,
+				0562625319A1554700627080 /* MergeSortTests */,
+				0562624119A1554700627080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0562624119A1554700627080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0562624019A1554700627080 /* MergeSort.app */,
+				0562625019A1554700627080 /* MergeSortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0562624219A1554700627080 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				0562624719A1554700627080 /* AppDelegate.h */,
+				0562624819A1554700627080 /* AppDelegate.m */,
+				0562626719A1569300627080 /* MergeSortViewController.h */,
+				0562626819A1569300627080 /* MergeSortViewController.m */,
+				0562626A19A156B000627080 /* MergeSorter.h */,
+				0562626B19A156B000627080 /* MergeSorter.m */,
+				0562626D19A15A2D00627080 /* MergeSort.h */,
+				0562626E19A15A8300627080 /* MergeSort.c */,
+				0562624A19A1554700627080 /* Images.xcassets */,
+				0562624319A1554700627080 /* Supporting Files */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		0562624319A1554700627080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0562624419A1554700627080 /* Info.plist */,
+				0562624519A1554700627080 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0562625319A1554700627080 /* MergeSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				0562626219A1561D00627080 /* MergeSortTests.m */,
+				0562626019A155C600627080 /* MergeSortBenchmarkTests.m */,
+				0562625419A1554700627080 /* Supporting Files */,
+			);
+			path = MergeSortTests;
+			sourceTree = "<group>";
+		};
+		0562625419A1554700627080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0562625519A1554700627080 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0562623F19A1554700627080 /* MergeSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0562625A19A1554700627080 /* Build configuration list for PBXNativeTarget "MergeSort" */;
+			buildPhases = (
+				0562623C19A1554700627080 /* Sources */,
+				0562623D19A1554700627080 /* Frameworks */,
+				0562623E19A1554700627080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeSort;
+			productName = MergeSort;
+			productReference = 0562624019A1554700627080 /* MergeSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0562624F19A1554700627080 /* MergeSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0562625D19A1554700627080 /* Build configuration list for PBXNativeTarget "MergeSortTests" */;
+			buildPhases = (
+				0562624C19A1554700627080 /* Sources */,
+				0562624D19A1554700627080 /* Frameworks */,
+				0562624E19A1554700627080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0562625219A1554700627080 /* PBXTargetDependency */,
+			);
+			name = MergeSortTests;
+			productName = MergeSortTests;
+			productReference = 0562625019A1554700627080 /* MergeSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0562623819A1554700627080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Troy Chmieleski";
+				TargetAttributes = {
+					0562623F19A1554700627080 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					0562624F19A1554700627080 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0562623F19A1554700627080;
+					};
+				};
+			};
+			buildConfigurationList = 0562623B19A1554700627080 /* Build configuration list for PBXProject "MergeSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0562623719A1554700627080;
+			productRefGroup = 0562624119A1554700627080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0562623F19A1554700627080 /* MergeSort */,
+				0562624F19A1554700627080 /* MergeSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0562623E19A1554700627080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0562624B19A1554700627080 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0562624E19A1554700627080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0562623C19A1554700627080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0562626F19A15A8300627080 /* MergeSort.c in Sources */,
+				0562626919A1569300627080 /* MergeSortViewController.m in Sources */,
+				0562624919A1554700627080 /* AppDelegate.m in Sources */,
+				0562624619A1554700627080 /* main.m in Sources */,
+				0562626C19A156B000627080 /* MergeSorter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0562624C19A1554700627080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0562626319A1561D00627080 /* MergeSortTests.m in Sources */,
+				0562626119A155C600627080 /* MergeSortBenchmarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0562625219A1554700627080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0562623F19A1554700627080 /* MergeSort */;
+			targetProxy = 0562625119A1554700627080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0562625819A1554700627080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0562625919A1554700627080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0562625B19A1554700627080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MergeSort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0562625C19A1554700627080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MergeSort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0562625E19A1554700627080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeSort.app/MergeSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MergeSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		0562625F19A1554700627080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeSort.app/MergeSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MergeSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0562623B19A1554700627080 /* Build configuration list for PBXProject "MergeSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0562625819A1554700627080 /* Debug */,
+				0562625919A1554700627080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0562625A19A1554700627080 /* Build configuration list for PBXNativeTarget "MergeSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0562625B19A1554700627080 /* Debug */,
+				0562625C19A1554700627080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0562625D19A1554700627080 /* Build configuration list for PBXNativeTarget "MergeSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0562625E19A1554700627080 /* Debug */,
+				0562625F19A1554700627080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0562623819A1554700627080 /* Project object */;
+}
